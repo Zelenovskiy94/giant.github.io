@@ -1,0 +1,188 @@
+@media screen and (max-width: 1220px) {
+	.reviews {
+		width: 740px;
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	header:before {
+		opacity: 0.2
+	}
+
+	.wrapper {
+	max-width: 1100px;
+	padding: 0 10px;
+	}
+
+	.features .wrapper {
+		width: 780px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.screen-shots .wrapper {
+		align-items: center;
+	}
+	.screendShots-slider {
+		width: 300px;
+		-webkit-box-shadow: 1px 36px 38px -10px rgba(0,0,0,0.51);
+-moz-box-shadow: 1px 36px 38px -10px rgba(0,0,0,0.51);
+box-shadow: 1px 36px 38px -10px rgba(0,0,0,0.51);
+	}
+	#prev-screenshots,
+	#next-screenshots {
+		display: none;
+	}
+	.screendShots-slider img {
+		box-shadow: none;
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.pricing-items {
+		margin: 0 auto;
+	  grid-template-columns: 1fr 1fr;
+	  width: 560px;
+	}
+
+	.pricing-item {
+		margin-bottom: 25px;
+	}
+
+	.downloads {
+		flex-direction: column;
+		align-items: center;
+		min-height: 365px;
+	}
+}
+@media screen and (max-width: 980px) {
+	.dont-leave img {
+		position: static;
+		width: 100%;
+	}
+	.dont-leave .wrapper{
+		display: flex;
+		flex-direction: column;
+		padding: 170px 10px;
+		align-items: center; 
+	}
+		.reviews {
+		width: 360px;
+	}
+}
+
+
+@media screen and (max-width: 820px) {
+	.features .wrapper {
+		width: 390px;
+		grid-template-columns: 1fr;
+	}
+
+	.features article:not(last-child) {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.pricing-items {
+	  grid-template-columns: 1fr ;
+	  width: 262px;
+	}	
+}
+@media screen and (max-width: 550px) {
+	.nav{
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		height: 0px;
+		width: 170px;
+		right: 5px;
+		top: 30px;
+		background: rgba(225,225,255, 0.5);
+		border-radius: 5px;
+		overflow: hidden;
+		transition: height 0.5s linear;
+	}
+	.icon-nav {
+		display: block
+	}
+
+	.open-nav {
+		padding: 10px 0;
+		height: 210px;
+		transition: height 0.5s linear;
+	}
+	.header-bottom h1,
+	.header-bottom p {
+		width: 290px;
+	}
+
+	.header-bottom h1 {
+		font-size: 36px;
+	}
+
+	#next-screenshots-slick ,
+	#prev-screenshots-slick {
+		display: none !important;
+	}
+	.screendShots-slider, 
+	.screendShots-slider img{
+		width: 290px
+	}
+
+	.playpause {
+		top: 45%;
+		left: 45%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#next-reviews-slick,
+	#prev-reviews-slick {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 430px) {
+	.features .wrapper {
+		width: 280px;
+	}
+	.features article {
+	padding: 15px 0;
+	padding-left: 90px;
+	padding-right: 10px;
+	position: relative;
+	width: 280px;
+	}
+	.dont-leave img{
+		display: none;
+	}
+	.playpause {
+		top: 36%;
+		left: 42%;
+	}
+	.reviews {
+		width: 300px;
+	}
+	.review {
+		width: 300px !important;
+		padding: 15px 15px;
+		box-sizing: border-box;
+	}
+
+	.review .img {
+		left: 15px;
+		bottom: 20px;
+	}
+	.download-block .wrapper h2 {
+		font-size: 30px;
+	}
+
+	.downloads>div article h3 {
+		font-size: 26px;
+	}
+	.downloads>div {
+		width: 300px;
+	}
+
+	.downloads>div article {
+		padding-right: 15px;
+	}
+}
